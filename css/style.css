@@ -21,29 +21,28 @@ body{
 }
 
 .container-big{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-small{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 a{
     text-decoration: none;
     color: black;
-    font-size: 0.7em;
+    font-size: 0.9em;
     padding-left: 20px;
-    
 }
 
 p{
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 img{
-    width: 100%;
+    width: 80%;
 }
 
 /*---
@@ -73,8 +72,8 @@ HEADER
 .button-blue{
     background-color: #0060FF;
     color: white;
-    font-size: 0.7em;
-    padding: 5px 10px;
+    font-size: 0.8em;
+    padding: 10px 15px;
     border: none;
 }
 
@@ -103,13 +102,22 @@ h1{
 
 .col-jumbotron-1{
     width: 25%;
+    position: relative;
 }
 
 .col-jumbotron-2{
     width: 75%;
 }
 
+.col-jumbotron-1 >*{
+    padding-bottom: 30px;
+}
 
+.arrow-down{
+    font-size: 2.3em;
+    position: absolute;
+    bottom: 40px;
+}
 
 /*---
 
