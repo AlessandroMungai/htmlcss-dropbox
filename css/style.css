@@ -30,6 +30,50 @@ body{
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.7em;
+    padding-left: 20px;
+    
+}
+
+/*---
+
+HEADER
+
+---*/
+
+.my-row-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    vertical-align: middle;
+}
+
+.my-col-headerleft{
+    padding: 20px;
+}
+
+.my-col-headerright{
+    padding: 20px;
+}
+
+.button-blue{
+    background-color: #0060FF;
+    color: white;
+    font-size: 0.7em;
+    padding: 5px 10px;
+    border: none;
+}
+
+.button-inizia{
+    display: inline-block;
+    margin-left: 10px;
+}
 
 /*---
 
@@ -37,9 +81,6 @@ DEBUG
 
 ---*/
 
-
-/*---
-
-DEBUG
-
----*/
+.debug header{
+    /* background-color: aqua; */
+}
