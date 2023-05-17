@@ -389,6 +389,7 @@ SIXTH SECTION
     width: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .square-designit{
@@ -425,8 +426,20 @@ SIXTH SECTION
 }
 
 .style-logo{
-    width: 110px;
+    width: 120px;
     filter: invert(100);
+}
+
+.designit-logo-black{
+   width: 250px; 
+}
+
+.full-square{
+    padding: 40px;
+}
+
+.cit-global-it-lead{
+    margin-top: 30px;
 }
 
 
