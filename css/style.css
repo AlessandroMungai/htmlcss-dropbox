@@ -88,11 +88,13 @@ HEADER
     font-size: 0.8em;
     padding: 10px 15px;
     border: none;
+    cursor: pointer;
 }
 
 .button-inizia{
     display: inline-block;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 
@@ -116,7 +118,6 @@ FIRST SECTION
 h1{
     font-size: 4em;
     font-weight: 900;
-    margin-top: 50px;
     text-align: center; 
 }
 
@@ -151,6 +152,10 @@ h1{
 SECOND SECTION
 
 ---*/
+
+.second-section{
+    margin-top: 120px;
+}
 
 .h2-second-section{
     margin-top: 80px;
@@ -187,6 +192,7 @@ SECOND SECTION
     border: 5px solid #005FFF;
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .circle-button-empty{
@@ -196,6 +202,7 @@ SECOND SECTION
     border: 2px solid lightgray;
     display: inline-block;
     vertical-align: middle;
+    cursor: pointer;
 }
 
 .second-section-bottom{
@@ -274,6 +281,41 @@ ul{
     margin-bottom: 20px;
 }
 
+/*---
+
+THIRD SECTION
+
+---*/
+
+.third-section{
+    margin-top: 120px;
+}
+
+.my-col-img{
+    width: 70%;
+}
+
+.my-col-text{
+    width: 30%;
+    padding-right: 30px;
+    margin-top: 60px;
+}
+
+.img-2{
+    width: 92%;
+}
+
+.button-white-border{
+    background-color:white;
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.button-third-section{
+    margin-top: 30px;
+}
 
 /*---
 
