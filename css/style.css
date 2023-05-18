@@ -73,19 +73,19 @@ HEADER
     padding: 0px 10px;
     line-height: 30px;
     border-radius: 10px;
-  }
+}
 
-  .drop-2{
+.drop-2{
     left: 280px;
-  }
+}
 
-  .drop-3{
+.drop-3{
     left: 360px;
-  }
+}
 
-  .a-nav:hover .dropdown-content {
+.a-nav:hover .dropdown-content {
     display: block;
-  }
+}
   
 header{
     position: sticky;
@@ -129,7 +129,6 @@ header{
     margin-left: 10px;
     cursor: pointer;
 }
-
 
 /*---
 
