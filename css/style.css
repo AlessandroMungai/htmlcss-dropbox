@@ -164,9 +164,14 @@ SECOND SECTION
     margin-top: 120px;
 }
 
+.second-section .my-row{
+    margin-top: 30px;
+}
+
 .h2-second-section{
     margin-top: 80px;
     font-size: 2.3em;
+    margin-bottom: 30px;
 }
 
 .col-1-3{
@@ -521,6 +526,53 @@ EIGHTH SECTION
     margin-bottom: 30px;
 }
 
+
+/*---
+
+FOOTER
+
+---*/
+
+footer{
+    background-color: black;
+    margin-top: 120px;
+    padding-bottom: 30px;
+}
+
+.my-row-foot{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    padding-top: 100px;
+}
+
+.my-col-foot{
+    width: calc(100% / 5 - 20px);
+    margin: 0 10px;
+    padding-right: 10px;
+}
+
+.my-row-foot h3{
+    color: white;
+}
+
+.my-row-foot ul{
+    color: white;
+    list-style-type: none;
+}
+
+.hr-shortest-foot{
+    width: 15%;
+    background-color: lightgray;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-bottom span{
+    color:#9d9d9d;
+    padding: 0 5px;
+}
+
 /*---
 
 DEBUG
@@ -602,4 +654,21 @@ DEBUG
     height: 50%;
     width: 50%;
     border: 1px solid black;
+} */
+
+/* .debug footer{
+    background-color: black;
+} */
+
+/* .debug .my-row-foot{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.debug .my-col-foot{
+    width: calc(100% / 5 - 20px);
+    margin: 0 10px;
+    background-color: #830b3b;
+    height: 100px;
 } */
