@@ -425,26 +425,74 @@ SIXTH SECTION
 
 .square-uf{
     background-color: #0093CE;
+    transition: all 0.3s ease-in-out;
+}
+
+.square-uf:hover{
+    background-color: #0093CE;
+    border: 15px solid #23a9de;
+    transform: scale(1.1);
+    border-radius: 5%;
 }
 
 .square-topps{
     background-color: #FF1C1C;
+    transition: all 0.3s ease-in-out;
+}
+
+.square-topps:hover{
+    background-color: #FF1C1C;
+    border: 15px solid #f44d4d;
+    transform: scale(1.1);
+    border-radius: 5%;
 }
 
 .square-world-bicycle{
     background-color: #D5001F;
+    transition: all 0.3s ease-in-out;
+}
+
+.square-world-bicycle:hover{
+    background-color: #D5001F;
+    border: 15px solid #d4344c;
+    transform: scale(1.1);
+    border-radius: 5%;
 }
 
 .square-hearst{
     background-color: #B4D0E7;
+    transition: all 0.3s ease-in-out;
+}
+
+.square-hearst:hover{
+    background-color: #B4D0E7;
+    border: 15px solid #cbd7e1;
+    transform: scale(1.1);
+    border-radius: 5%;
 }
 
 .square-lonely-planet{
     background-color: #0D2481;
+    transition: all 0.3s ease-in-out;
+}
+
+.square-lonely-planet:hover{
+    background-color: #0D2481;
+    border: 15px solid #25377e;
+    transform: scale(1.1);
+    border-radius: 5%;
 }
 
 .square-clear-channel{
     background-color: #FFD830;
+    transition: all 0.3s ease-in-out;
+}
+
+.square-clear-channel:hover{
+    background-color: #FFD830;
+    border: 15px solid #f5df7c;
+    transform: scale(1.1);
+    border-radius: 5%;
 }
 
 .style-logo{
